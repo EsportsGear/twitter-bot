@@ -41,7 +41,14 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Hi ${name} Thanks for .... \n Happy ${dayName} 😊😊 `; // your message
+  return `Hi ${name} Check out these few links on our website to answer most questions people will/do have and if you have any questions past that please feel free to reach out!!!
+#GearUp
+
+https://www.esportsgear.com/collections/services  
+
+https://www.esportsgear.com/pages/frequently-asked-questions 
+
+https://www.esportsgear.com/pages/sponsorship-and-affiliate-information `; // your message
   // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
 };
 
